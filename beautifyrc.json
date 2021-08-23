@@ -38,7 +38,7 @@
           "default": true
         },
         "indent_size": {
-          "description": "Indent size. [JS,CSS,HTML]]",
+          "description": "Indent size. [JS,CSS,HTML]",
           "type": "integer",
           "default": 2
         },
