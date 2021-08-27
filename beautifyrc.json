@@ -84,12 +84,12 @@
         "space_around_selector_separator": {
           "description": "(Deprecated: use space_around_combinator) [CSS]",
           "type": "boolean",
-          "default": false
+          "default": true
         },
         "space_around_combinator": {
           "description": "Ensure space around selector separators (>+~). [CSS]",
           "type": "boolean",
-          "default": false
+          "default": true
         }
       }
     },
@@ -103,7 +103,8 @@
             "type": "string"
           },
           "default": ["area", "base", "br", "col", "embed", "hr", "img", "input", "keygen", "link", "menuitem", "meta",
-            "param", "source", "track", "wbr", "!doctype", "?xml", "?php", "?=", "basefont", "isindex"]
+            "param", "source", "track", "wbr", "!doctype", "?xml", "?php", "?=", "basefont", "isindex"
+          ]
         },
         "inline": {
           "description": "",
@@ -113,13 +114,13 @@
           },
           "default": [
             "a", "abbr", "area", "audio", "b", "bdi", "bdo", "br", "button", "canvas", "cite",
-           "code", "data", "datalist", "del", "dfn", "em", "embed", "i", "iframe", "img",
-           "input", "ins", "kbd", "keygen", "label", "map", "mark", "math", "meter", "noscript",
-           "object", "output", "progress", "q", "ruby", "s", "samp", "select", "small",
-           "span", "strong", "sub", "sup", "svg", "template", "textarea", "time", "u", "var",
-           "video", "wbr", "text",
-           "acronym", "address", "big", "ins", "small", "strike", "tt",
-           "pre", "script", "rt", "rp", "ruby"
+            "code", "data", "datalist", "del", "dfn", "em", "embed", "i", "iframe", "img",
+            "input", "ins", "kbd", "keygen", "label", "map", "mark", "math", "meter", "noscript",
+            "object", "output", "progress", "q", "ruby", "s", "samp", "select", "small",
+            "span", "strong", "sub", "sup", "svg", "template", "textarea", "time", "u", "var",
+            "video", "wbr", "text",
+            "acronym", "address", "big", "ins", "small", "strike", "tt",
+            "pre", "script", "rt", "rp", "ruby"
           ]
         },
         "wrap_attributes": {
@@ -127,7 +128,8 @@
           "type": "string",
           "default": "auto",
           "enum": ["auto", "force", "force-aligned", "force-expand-multiline", "align-multiple", "preserve",
-            "preserve-aligned"]
+            "preserve-aligned"
+          ]
         },
         "wrap_attributes_indent_size": {
           "description": "Indent wrapped attributes to after N characters. Defaults to 'indent_size'. [HTML]",
@@ -193,7 +195,8 @@
           "type": "string",
           "default": "collapse",
           "enum": ["collapse", "expand", "end-expand", "none", "collapse,preserve-inline", "expand,preserve-inline",
-            "end-expand,preserve-inline", "none,preserve-inline"]
+            "end-expand,preserve-inline", "none,preserve-inline"
+          ]
         },
         "indent_level": {
           "description": "Initial indentation level. [JS]",
